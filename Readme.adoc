@@ -1,0 +1,23 @@
+= Testing AsciiDoc for documentation
+
+== Preface
+
+AsciiDoc seems an awesome tool for writing documentation.
+
+I have to check if it is also supported by Github. In this case it may be replace markdown.
+
+== Admotion types:
+NOTE: An admonition paragraph draws the reader's attention to
+auxiliary information.
+Its purpose is determined by the label
+at the beginning of the paragraph.
+
+Here are the other built-in admonition types:
+
+TIP: Pro tip...
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that...
