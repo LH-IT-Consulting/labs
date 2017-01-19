@@ -1,6 +1,13 @@
 :last-update-label!:
 :icons: font
 :toc:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
 
 = Einstiegsseite
 Lars Hermes <lars@hermes-it-consulting.de>
