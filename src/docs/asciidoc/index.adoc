@@ -11,7 +11,7 @@ ist spannend was AsciiDoc alles kann und wie einfach es zu bedienen sein wird!
 
 toc::[]
 
-== Heading 1
+== Formatierung
 
 In diesem Abschnitt werden erstmal die unterschiedlichen Formatierungsoptionen
 von AsciiDoc getestet:
@@ -26,6 +26,12 @@ von AsciiDoc getestet:
 ** Sub Item
 *** Child Item
 
+Geordnete Listen gibt es selbstverständlich auch:
+
+. Eintrag
+. Eintrag
+. usw.
+
 Checklisten sind auch möglich:
 
 * [*] checked
@@ -39,6 +45,21 @@ Dieser Text ist *fett*, dieser ist _kursiv_, #hervorgehoben# und `monospace`
 Dokumente lassen sich auch durch horizontale Trenner aufteilen:
 '''
 
-== Heading 2
+TIP: Ich habe eine Idee!
 
-TIP: Achtung!
+NOTE: Esist wichtig, dass immer eine Leerzeile zwischen den Elementen ist, sonst
+werden diese nicht sauber erkannt!
+
+WARNING: Wenn es draußen kalt ist, geh nicht in der Badehose raus!
+
+CAUTION: Barfuß im Schnee führt zu erfrorenen Zehen!
+
+IMPORTANT: Immer schön auf Mutti hören!
+
+== Verlinkungen
+
+Es können externe Links eingefügt werden:
+
+* https://docs.oracle.com/javase/8/docs/api/ - automatische Verlinkung
+* https://docs.oracle.com/javase/8/docs/api/[JavaDoc für Java 8] - mit Namen
+* link:index.html[dieses Dokument gerendered] - relativ
