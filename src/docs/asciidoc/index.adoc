@@ -1,4 +1,4 @@
-:last-update-label!:
+:numbered:
 :icons: font
 :toc:
 ifdef::env-github[]
@@ -71,6 +71,8 @@ Es können externe Links eingefügt werden:
 * https://docs.oracle.com/javase/8/docs/api/ - automatische Verlinkung
 * https://docs.oracle.com/javase/8/docs/api/[JavaDoc für Java 8] - mit Namen
 
+Interne Referenzen zu <<Formatierung>> sind auch ohne weiteres möglich.
+
 == Embedded Code
 
 === Direkt
@@ -91,3 +93,58 @@ public class Hello { // <2>
 <2> Class definition
 
 === Verwendung eines Sourcefiles
+
+:sourcedir: src/main/java
+
+[source,java]
+----
+include::{sourcedir}/de/hermes/playground/simple/HelloWorld.java[]
+----
+
+[sidebar]
+.Ergänzende Informationen
+--
+Zusätzliche Informationen.
+
+Kann verwendet werden, weitere Informationen hinzuzufügen, z.B.:
+
+<1> Package definition
+<2> Class definition
+<3> Main method
+<4> Prints string to console
+--
+
+=== Inline Anweisungen
+
+Installation  von AsciDoc unter Ubuntu:
+
+[listing]
+sudo apt-get install asciidoc
+
+
+== Tabellen
+
+[cols="2*", options="header"]
+|===
+|Name
+|Group
+
+|Firefox
+|Web Browser
+
+|Ruby
+|Programming Language
+
+...
+|===
+
+== Zitate
+
+[quote, Albert Einstein]
+A person who never made a mistake never tried anything new.
+
+== Eingebettete Dokumente
+
+Das ist ein separates Dokument, das hier inklusive seiner Formatierung eingebunden wird.
+
+include::test.adoc[]
