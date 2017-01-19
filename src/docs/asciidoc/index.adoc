@@ -1,5 +1,44 @@
 :last-update-label!:
-:icons: font 
-= Let's document ! 
+:icons: font
+:toc:
+
+= Einstiegsseite
+Lars Hermes <lars@hermes-it-consulting.de>
+v1.0, 19.01.2017
+
+Diese Seite dient als Einstieg in eine Dokumentationsstruktur mit AsciiDoc. Es
+ist spannend was AsciiDoc alles kann und wie einfach es zu bedienen sein wird!
+
+toc::[]
+
+== Heading 1
+
+In diesem Abschnitt werden erstmal die unterschiedlichen Formatierungsoptionen
+von AsciiDoc getestet:
+
+=== Listen
+
+* Unordered Item 1
+* Unordered Item 2
+* ...
+
+* Main Item
+** Sub Item
+*** Child Item
+
+Checklisten sind auch möglich:
+
+* [*] checked
+* [*] auch
+* [ ] diesmal nicht :-p
+
+=== Textformatierung
+
+Dieser Text ist *fett*, dieser ist _kursiv_, #hervorgehoben# und `monospace`
+
+Dokumente lassen sich auch durch horizontale Trenner aufteilen:
+'''
+
+== Heading 2
 
 TIP: Achtung!
