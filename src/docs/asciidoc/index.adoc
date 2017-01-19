@@ -1,6 +1,10 @@
 :numbered:
 :icons: font
 :toc:
+//:doctype: book
+:source-highlighter: coderay
+:listing-caption: Listing
+:pdf-page-size: A4
 ifdef::env-github[]
 :tip-caption: :bulb:
 :note-caption: :information_source:
@@ -9,12 +13,12 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-= Einstiegsseite
+= Beispieldokument
 Lars Hermes <lars@hermes-it-consulting.de>
 v1.0, 19.01.2017
 
-Diese Seite dient als Einstieg in eine Dokumentationsstruktur mit AsciiDoc. Es
-ist spannend was AsciiDoc alles kann und wie einfach es zu bedienen sein wird!
+Dieses Dokument dient als Beispiel für eine Dokumentationsstruktur mit AsciiDoc.
+Es ist spannend was AsciiDoc alles kann und wie einfach es zu bedienen sein wird!
 
 toc::[]
 
