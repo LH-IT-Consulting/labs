@@ -50,6 +50,7 @@ Checklisten sind auch möglich:
 Dieser Text ist *fett*, dieser ist _kursiv_, #hervorgehoben# und `monospace`
 
 Dokumente lassen sich auch durch horizontale Trenner aufteilen:
+
 '''
 
 TIP: Ich habe eine Idee!
@@ -69,6 +70,24 @@ Es können externe Links eingefügt werden:
 
 * https://docs.oracle.com/javase/8/docs/api/ - automatische Verlinkung
 * https://docs.oracle.com/javase/8/docs/api/[JavaDoc für Java 8] - mit Namen
-ifdef::env-github[]
-* link:test.adoc - relativ
-endif::[]
+
+== Embedded Code
+
+=== Direkt
+
+[[app-listing]]
+[source,java]
+.Hello.java
+----
+import java.util.*; // <1>
+
+public class Hello { // <2>
+  public static void main(String[] args) {
+    System.out.println("Hello");
+  }
+}
+----
+<1> Library import
+<2> Class definition
+
+=== Verwendung eines Sourcefiles
